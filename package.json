@@ -1,0 +1,21 @@
+{
+  "name": "ticket",
+  "version": "1.0.0",
+  "description": "An application for creating, deleting and updating ticket",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "mongoose-unique-validator": "^2.0.2"
+  },
+  "author": "Tumininu",
+  "license": "ISC"
+}
